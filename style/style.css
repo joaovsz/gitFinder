@@ -1,217 +1,205 @@
-
-
-html{
-    font-size: 62.5%;
-    border: none;
-    background-color: #0D1117;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Rubik;
+html {
+  font-size: 62.5%;
+  border: none;
+  background-color: #0d1117;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik;
 }
 
-
-header{
-    width:50vw;
-    margin: auto;
-    font-size: 2rem;
-    color: white;
-    display: flex;
-    padding:0 0 2rem 2rem;
+header {
+  width: 50vw;
+  margin: auto;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  padding: 0 0 2rem 2rem;
 }
 
-section .searcher{
-    align-items: center;
-    padding: .8rem 0;
-    display: flex;
-    width: 50vw;
-    border-radius: 1rem;
-    margin:  auto;
-    justify-content: space-evenly;
-    background: #212b3a
+section .searcher {
+  align-items: center;
+  padding: 0.8rem 0;
+  display: flex;
+  width: 50vw;
+  border-radius: 1rem;
+  margin: auto;
+  justify-content: space-evenly;
+  background: #212b3a;
 }
-section .searcher #myForm{
-    height:4.7rem;
-    width:50vw;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
+section .searcher #myForm {
+  height: 4.7rem;
+  width: 50vw;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
 }
-section .searcher input{
-    color: rgb(255, 255, 255);
-    outline: none;
-    height:100%;
-    width:50%;
-    border: none;
-    background: none;
-    font-size: 2rem;
-}
-
-
-section .searcher img{
-    width: 24px;
-    height: 24px;
+section .searcher input {
+  color: rgb(255, 255, 255);
+  outline: none;
+  height: 100%;
+  width: 50%;
+  border: none;
+  background: none;
+  font-size: 2rem;
 }
 
-section .searcher button{
-    border: none;
-    cursor: pointer;
-    border-radius: .8rem;
-    font-family: Rubik;
-    color: white;
-    height: 90%;
-     width:15%;
-    background-color: #6699FF;
+section .searcher img {
+  width: 24px;
+  height: 24px;
 }
 
-section .searcher input::placeholder{
-    font-family: Rubik;
-    font-size: 2rem;
-    color: rgba(255, 255, 255, 0.274);
+section .searcher button {
+  border: none;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-family: Rubik;
+  color: white;
+  height: 90%;
+  width: 15%;
+  background-color: #6699ff;
 }
 
-main{
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    width:50vw;
-    margin: auto;
+section .searcher input::placeholder {
+  font-family: Rubik;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.274);
 }
 
-main .user-info{
-    width: calc(100% - 6rem);
-    font-size: 1.6rem;
-    border-radius: 1rem;
-    padding:6rem 3rem 6rem 3rem;
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background:#212b3a;
-    color: white;
-    margin-top: 4rem;
-    
+main {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  width: 50vw;
+  margin: auto;
 }
 
-
-
-main .user-info .data #username{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 1.5rem;
+main .user-info {
+  width: calc(100% - 6rem);
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  padding: 6rem 3rem 6rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background: #212b3a;
+  color: white;
+  margin-top: 4rem;
 }
 
-
-main .user-info .data .followers-info{
-    margin-top: 1.5rem;
-    background: #12171f;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width:100%;
-    justify-content:space-evenly;
-    
-}
-main #user-photo{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    
-}
-main #user-photo #profile-photo{
-    max-width: 80%;
-    border-radius: 50%
+main .user-info .data #username {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
 }
 
-.contact-info{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 1rem;
-    margin-top:1.5rem;
+main .user-info .data .followers-info {
+  margin-top: 1.5rem;
+  background: #12171f;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+main #user-photo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+main #user-photo #profile-photo {
+  max-width: 80%;
+  border-radius: 50%;
 }
 
-.contact-info p{
-    padding-left: 1.3rem;
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 1rem;
+  margin-top: 1.5rem;
 }
 
-.contact-info .city, .twitter, .company, .site{
-    display:flex;
-    justify-content: flex-start;
-    align-items:center;
+.contact-info p {
+  padding-left: 1.3rem;
+}
+
+.contact-info .city,
+.twitter,
+.company,
+.site {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .contact-info img {
-    filter: invert(100);
+  filter: invert(100);
 }
 
-div .followers-info p{
-    text-align:center;
+div .followers-info p {
+  text-align: center;
 }
-
 
 @media (max-width: 1024px) {
+  header {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    padding: 0;
+  }
 
-    header{
-        width: 85vw;
-        margin: auto;
-        display: flex;
-        padding:0;
-    }
+  section .searcher {
+    width: 85vw;
+  }
 
-    section .searcher{
-        width:85vw;
-    }
+  section .searcher #myForm {
+    width: 85vw;
+  }
+  section .searcher #myForm button {
+    width: 20%;
+  }
 
-    section .searcher #myForm{
-        width:85vw;
-    }
-    section .searcher #myForm button{
-        width:20%;
-    }
+  main {
+    width: 85vw;
+  }
 
-    main{
-        width: 85vw;
-    }
+  main .user-info {
+    padding: 0 3rem 3rem 3rem;
+    width: calc(85vw - 6rem);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    margin-bottom: 2rem;
+  }
 
-    main .user-info{
-        padding: 0 3rem 3rem 3rem;
-        width:calc(85vw - 6rem);
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
-        margin-bottom:2rem;
-    }
+  main .user-info .data .followers-info {
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 0;
+    flex-direction: column;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    main .user-info .data .followers-info{
-        align-items: center;
-        width:75%;
-        margin: auto;
-        padding:0;
-        flex-direction: column;
-    }
-    .contact-info{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #username{
-        display: flex;
-        flex-direction: column;
-    }
-    #username p{
-        margin:0;
-    }
-    .bio p{
-        text-align: center;
-    }
-    #user-photo{
-        margin-top:4rem;
-        justify-content: center;
-
-    }
-
-   
+  #username {
+    display: flex;
+    flex-direction: column;
+  }
+  #username p {
+    margin: 0;
+  }
+  .bio p {
+    text-align: center;
+  }
+  #user-photo {
+    margin-top: 4rem;
+    justify-content: center;
+  }
 }
