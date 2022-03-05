@@ -26,7 +26,7 @@ O gitFinder é uma aplicação com objetivo de encontrar usuários da plataforma
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://joaovsz.github.io/gitFinder/).
+Você pode visualizar o projeto em funcionamento através [desse link](https://joaovsz.github.io/gitFinder/).
 
 
 ---
