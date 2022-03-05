@@ -9,7 +9,9 @@
 </p>
 
 
-
+<p align="center">
+  <img alt="Rocket.Q" src="./images/printscreeenGITFINDER.png" width="100%">
+</p>
 
 
 ## 🚀 Tecnologias
